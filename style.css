@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styling */
+
+.ul {
+  display: flex;
+  margin: 0;
+  position: absolute;
+  top: 3rem;
+}
+
+.ul li {
+  list-style-type: none;
+  padding: 0 1.3em;
+}
+
+.ul li:first-child {
+  padding-left: 0;
+  padding-right: 1.7em;
+}
+

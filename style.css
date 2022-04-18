@@ -1,3 +1,12 @@
+:root {
+  --darkGray: hsl(0, 0%, 63%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --veryDarkGray: hsl(0, 0%, 27%);
+  --fontSize: 1.1em;
+  --smallerFontSize: 1.05em;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -8,6 +17,7 @@ body {
 
 .ul {
   display: flex;
+  align-items: center;
   margin: 0;
   position: absolute;
   top: 3rem;
@@ -16,10 +26,50 @@ body {
 .ul li {
   list-style-type: none;
   padding: 0 1.3em;
+  color: var(--white);
+  font-size: var(--smallerFontSize);
 }
 
 .ul li:first-child {
-  padding-left: 0;
+  font-size: 1.5rem;
   padding-right: 1.7em;
 }
 
+/* First Section Styling */
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1.3fr 0.2fr;
+  grid-gap: 0;
+}
+
+.height {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex > h1 {
+  color: var(--black);
+  font-size: 3em;
+}
+
+.flex > p {
+  font-size: var(--fontSize);
+  color: var(--darkGray)
+}
+
+.shop-flex {
+  display: flex;
+  align-items: center;
+}
+
+.shop-flex > p {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: var(--black)
+}

@@ -39,6 +39,18 @@ body {
   padding-right: 1.7em;
 }
 
+.ul li:first-child:hover {
+  padding-bottom: 0;
+  border-bottom: none;
+  cursor: auto;
+}
+
+.ul li:hover {
+  padding-bottom: 1rem;
+  cursor: pointer;
+  border-bottom: 2px solid var(--white);
+}
+
 /* First Section Styling */
 
 .grid-wrapper {
@@ -94,6 +106,12 @@ body {
 
 .shop-flex > img {
   margin-left: 2rem;
+}
+
+.shop-flex > p:hover,
+.shop-flex > img:hover {
+  color: var(--darkGray);
+  cursor: pointer;
 }
 
 .svg-images-wrapper {

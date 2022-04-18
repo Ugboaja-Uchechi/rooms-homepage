@@ -43,8 +43,15 @@ body {
 
 .grid-wrapper {
   display: grid;
-  grid-template-columns: 3fr 1.3fr 0.2fr;
+  /* grid-template-columns: 3fr 0.2fr 1.3fr; */
+  /* grid-template-columns: 1.6fr 0.1fr 1.3fr; */
   grid-gap: 0;
+  /* display: flex; */
+}
+
+.image-wrapper {
+  grid-column: 1/3;
+  grid-row: 1/3;
 }
 
 .height {
@@ -55,6 +62,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0 6rem;
 }
 
 .flex > h1 {
@@ -69,6 +77,7 @@ body {
   word-spacing: 1px;
   line-height: 1.2em;
   text-align: justify;
+  margin-top: 0;
 }
 
 .shop-flex {
@@ -81,6 +90,26 @@ body {
   text-transform: uppercase;
   color: var(--black);
   letter-spacing: 0.5em;
+}
+
+.shop-flex > img {
+  margin-left: 2rem;
+}
+
+.svg-images-wrapper {
+  display: inline-flex;
+  height: 5rem;
+  width: 10rem;
+  justify-content: space-around;
+  background-color: var(--black);
+  align-self: flex-end;
+  grid-column: 3/4;
+  grid-row: 2;
+  /* justify-self: flex-start; */
+}
+
+.svg-images {
+  transform: scale(0.3);
 }
 
 /* /second Section Styling */

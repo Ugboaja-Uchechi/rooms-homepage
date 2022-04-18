@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap');
+
 :root {
   --darkGray: hsl(0, 0%, 63%);
   --black: hsl(0, 0%, 0%);
@@ -5,12 +7,14 @@
   --veryDarkGray: hsl(0, 0%, 27%);
   --fontSize: 1.1em;
   --smallerFontSize: 1.05em;
+  --fontFamily: 'League Spartan', sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--fontFamily);
 }
 
 /* Header Styling */
@@ -56,11 +60,15 @@ body {
 .flex > h1 {
   color: var(--black);
   font-size: 3em;
+  font-weight: 600;
 }
 
 .flex > p {
   font-size: var(--fontSize);
-  color: var(--darkGray)
+  color: var(--darkGray);
+  word-spacing: 1px;
+  line-height: 1.2em;
+  text-align: justify;
 }
 
 .shop-flex {
@@ -71,7 +79,8 @@ body {
 .shop-flex > p {
   font-size: 1.2em;
   text-transform: uppercase;
-  color: var(--black)
+  color: var(--black);
+  letter-spacing: 0.5em;
 }
 
 /* /second Section Styling */
@@ -81,9 +90,12 @@ body {
   grid-template-columns: 1fr 1.3fr 1fr;
 }
 
-.grid-wrapper2 h2 {
+.padding h3 {
   font-size: 1.3em;
   color: var(--black);
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  word-spacing: 1px;
 }
 
 .padding {

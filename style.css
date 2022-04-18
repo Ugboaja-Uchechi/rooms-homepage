@@ -165,3 +165,49 @@ body {
   display: grid;
 }
 
+/* Tablet View */
+
+@media screen
+and (min-device-width: 650px)
+and (max-device-width: 1375px) {
+  /* Header Styling */
+
+  .ul li {
+    padding-left: 0;
+  }
+
+  /* First Section Styling */
+
+  .height {
+    height: 100%;
+    width: 25rem;
+  }
+
+  .flex > h1 {
+    font-size: 2em;
+  }
+
+  .flex {
+    padding: 0 2rem;
+  }
+
+  .shop-flex > p {
+    font-size: 1em;
+  }
+
+  .shop-flex > img {
+    margin-left: 1rem;
+  }
+
+  /* Second Section Styling */
+
+  .padding {
+    padding: 0 2rem;
+    text-align: justify;
+  }
+
+  .padding > h3 {
+    font-size: 1.2em;
+    letter-spacing: 0;
+  }
+}

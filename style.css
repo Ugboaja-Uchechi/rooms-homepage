@@ -296,5 +296,48 @@ and (max-device-width: 649px) {
     color: var(--white);
     font-size: 1.2em;
   }
+  /* First Section Styling */
+
+  .mobile-image-wrapper {
+    display: block;
+  }
+
+  .mobile-image-wrapper > img {
+    height: 100%;
+    width: -webkit-fill-available;
+  }
+
+  .grid-wrapper {
+    display: block;
+  }
+
+  .flex > h1 {
+    font-size: 2em;
+  }
+
+  .flex > p {
+    word-spacing: 0;
+    line-height: 1.3em;
+  }
+
+  .flex {
+    padding: 0 2rem;
+  }
+
+  .shop-flex > p {
+    font-size: 1em;
+  }
+
+  .shop-flex > img {
+    margin-left: 1rem;
+  }
+
+  .svg-images-wrapper {
+    position: absolute;
+    top: 18.5rem;
+    right: 0;
+    width: 9rem;
+    height: 4rem;
+  }
 
 }

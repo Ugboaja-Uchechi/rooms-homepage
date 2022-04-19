@@ -15,14 +15,16 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSSMFlexbox
+- CSS Flexbox
 - CSS Grid
 - JavaScript
 
 ## Author
 Ugboaja Uchechi
 
-GitHub: [GitHub](https://github.com/Ugboaja-Uchechi)
+- GitHub: [GitHub](https://github.com/Ugboaja-Uchechi)
+
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/stephanie-ugboaja/)
 
 ## 🤝 Contributing
 

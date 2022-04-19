@@ -2,6 +2,21 @@ let carouselContainer = document.querySelector('.carousel').children;
 let next = document.querySelectorAll('.next');
 let prev = document.querySelectorAll('.prev');
 const totalCarousel = carouselContainer.length;
+const menu = document.querySelector('.menu');
+const close = document.querySelector('.close');
+const closeWrapper = document.querySelector('.close-cover');
+const mobileNavigation = document.querySelector('.ul');
+
+menu.addEventListener('click', () => {
+  mobileNavigation.style.display = 'flex';
+  closeWrapper.style.display = 'block';
+  
+});
+
+close.addEventListener('click', () => {
+  mobileNavigation.style.display = 'none';
+  // close.style.display = 'none';
+});
 
 let index = 0;
 // let newIndex = 0;

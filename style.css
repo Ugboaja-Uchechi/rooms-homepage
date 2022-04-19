@@ -340,4 +340,16 @@ and (max-device-width: 649px) {
     height: 4rem;
   }
 
+  /* Second Section Styling */
+
+  .grid-wrapper2 {
+    display: block;
+  }
+
+  .padding h3 {
+    font-size: 1.1em;
+    letter-spacing: 0.2em;
+    word-spacing: 5px;
+  }
+
 }

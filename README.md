@@ -19,6 +19,10 @@ Users should be able to:
 - CSS Grid
 - JavaScript
 
+### ScreenShot
+
+![image](https://user-images.githubusercontent.com/74814780/164090224-fdf97ff4-2461-4bc1-b4b4-7ed1cdbb0d2d.png)
+
 ## Author
 Ugboaja Uchechi
 

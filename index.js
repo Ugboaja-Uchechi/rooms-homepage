@@ -15,19 +15,9 @@ menu.addEventListener('click', () => {
 
 close.addEventListener('click', () => {
   mobileNavigation.style.display = 'none';
-  // close.style.display = 'none';
 });
 
 let index = 0;
-// let newIndex = 0;
-
-// prev.addEventListener('click', () => {
-//   nextImage('next');
-// })
-console.log(prev);
-// next.addEventListener('click', () => {
-//   nextImage('prev');
-// })
 
 for (let i = 0; i < prev.length; i++) {
   prev[i].addEventListener('click', () => {

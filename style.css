@@ -235,7 +235,7 @@ and (max-device-width: 649px) {
     display: none;
   }
 
-  #desktop {
+  #desktop, #desktop2, #desktop3 {
     display: none;
   }
 

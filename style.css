@@ -31,7 +31,7 @@ body {
   display: none;
 }
 
-#mobile {
+#mobile, #mobile2, #mobile3 {
   display: none;
 }
 
@@ -329,7 +329,7 @@ and (max-device-width: 649px) {
     margin-left: 1rem;
   }
 
-  #mobile {
+  #mobile, #mobile2, #mobile3 {
     display: inline-flex;
   }
 

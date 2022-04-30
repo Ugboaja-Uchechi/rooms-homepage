@@ -151,7 +151,7 @@ body {
   grid-template-columns: 1fr 1.3fr 1fr;
 }
 
-.padding h3 {
+.padding h2 {
   font-size: 1.3em;
   color: var(--black);
   letter-spacing: 0.5em;
@@ -220,7 +220,7 @@ and (max-device-width: 1375px) {
     text-align: justify;
   }
 
-  .padding > h3 {
+  .padding > h2 {
     font-size: 1.2em;
     letter-spacing: 0;
   }
@@ -344,7 +344,7 @@ and (max-device-width: 649px) {
     display: block;
   }
 
-  .padding h3 {
+  .padding h2 {
     font-size: 1.1em;
     letter-spacing: 0.2em;
     word-spacing: 5px;
